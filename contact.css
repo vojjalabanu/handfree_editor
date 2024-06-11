@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+   }
+   body{
+    color: rgb(255, 255, 255);
+    background-color: rgb(86, 138, 211);
+   }
+   nav{
+     height: 60px;
+     background-color: rgb(40, 110, 174);
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+   }
+   nav ul{
+    display: flex;
+    list-style: none;
+   }
+  
+   nav ul a{
+    text-decoration: none;
+    justify-content: space-around;
+    margin: 20px;
+    color: white;
+   }
+   .title{
+    font-size: 2rem;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(172, 19, 19);
+   }
+   .star{
+    color: rgb(235, 156, 19);
+   }
+   .getstart{
+    padding: 30px;
+   }
+   .start{
+    text-decoration: none;
+    border: 1.5px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+   }
+   .start:hover{
+    background-color: rgb(33, 144, 228);
+    color: rgb(0, 0, 0);
+   }
+   .fa-solid{
+    font-size: 1.5rem;
+   }
+   #checking{
+    display: none;
+   }
+   .btn{
+    display: none;
+   }
+   @media (max-width: 712px) {
+    .btn{
+        display: block;
+    }
+    nav{
+        height: 60px;
+    }
+    .onds{
+        position: fixed;
+        border-radius: 10px;
+        /* display: inline-block; */
+        display: inline-block;
+        list-style: none;
+        margin-top: 32px;
+         background-color: rgb(23, 9, 131);
+        right: -100%;
+        transition: all 0.5s;
+       }
+       .btn{
+        display: block;
+       }
+    nav ul li{
+        margin: 40px;
+       }
+       .title{
+        font-size: 1.5rem;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+       }
+       .visible{
+        right:0%;
+       }
+   }
+   .panel1{
+    height: 33rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 600px;
+   }
+   .accounts{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+   }
+   img{
+    border-radius: 50%;
+   }
+   @media (max-width: 712px){
+    .container{
+        height: 500px;
+        width: 0;
+    }
+    .accounts{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        height: 400px;
+        width: 200px;
+    }
+    .accounts a{
+        padding: 10px;
+    }
+   }

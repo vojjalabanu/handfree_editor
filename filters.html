@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="filters.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Roboto:ital,wght@1,900&display=swap" rel="stylesheet">
+    <title>img-Filters</title>
+</head>
+<body>
+    <nav>
+        <a href="index.html" style="text-decoration: none;"><div class="title">PICSTAR <i class="fa-regular fa-star star"></i></div></a>
+       
+    </label>
+        <div class="pages">
+            <ul class="onds">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="home.html">MY-EDITOR</a></li>
+            <li><a href="filters.html">FILTERS</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+        </div>
+                <div class="btn" onclick="sam()"><i class="fa-solid fa-bars butt"></i></div>
+        </div>
+    </nav>
+    <div class="panel1">
+        <div class="previewimg">
+            <img class="imge" src="image-placeholder (1).svg" alt="">
+        </div>
+        <div class="saveimg">
+            <div class="nothing"></div>
+            <button class="choose">CHOOSE-IMG</button>
+            <input class="file-input" type="file" hidden>
+            <button class="save">SAVE</button>
+        </div>
+    </div>
+    <div class="speechrecog">
+        <button id="startRecognition">Start voice filtering</button>
+    </div>
+    <div class="panelin disable">
+        <div class="filters">
+            <div class="box5 option active" id="b5"><img src="filter1.png" alt=""></div>
+            <div class="box1 option" id="b1"><img src="filter2.png" alt=""></div>
+            <div class="box2 option" id="b2"><img src="filter3.png" alt=""></div>
+            <div class="box3 option" id="b3"><img src="filter4.png" alt=""></div>
+            <div class="box4 option" id="b4"><img src="filter5.png" alt=""></div>
+        </div>
+    </div>
+ <script src="filters.js"></script>
+</body>
+</html>
